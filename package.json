@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node .\\dist\\main.js"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.0.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
